@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Design.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" type="text/css">
+    <title>Raising Young Authors</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/New Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#" >ABOUT<span class="fa fa-caret-down ca"></span></a>
+                        <div class="sub-head">
+                            <ul>
+                                <li><a href="Camp Site.html">Camp Sites</a></li>
+                                <li><a href="Our Team.html">Our Team</a></li>
+                                <li><a href="Mission & Vision.html">Mission &amp; Vision</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">COURSE</a><i class="fa fa-caret-down ca" id=""></i>
+                        <div class="sub-head">
+                            <ul>
+                                <li><a href="Trainings.html">Trainings</a></li>
+                                <li><a href="Online Courses.html">Online Courses</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">EVENTS</a><i class="fa fa-caret-down ca"></i>
+                        <div class="sub-head">
+                            <ul>
+                                <li><a href="">2021 Competitions</a></li>
+                                <li><a href="">2022 Competitions</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                <a href="#" class="btn"><button>SIGN IN</button></a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Team</h1>
+    </section>
+
+  <!-------Our Team -------->
+  <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Your Instructors</h1>
+            <p><blockquote class="block">At Raising Young Authors, we believe that qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience.<br> Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.
+                A good teacher can make a world of difference in a student's life, impacting everything from their classroom learning to their long-term success.<br>
+                Great communication doesn't stop when the teacher is done talking. Listening well is one of the most important skills needed to be a teacher. 
+                Teachers that are skilled in listening and observing often pick up on what isn’t being said, such as any anxieties a student may have, and can then help the student build their skills and confidence levels.<br>
+                Working in education means you’re never truly working alone. From paraprofessionals and teaching assistants to other classroom teachers and school leaders, working as a teacher often means working effectively in a group. It's also important to keep an open mind and learn from other educators. 
+                </blockquote></p>
+                <p><strong>- Mrs. Esther Anucha</strong></p>
+        </div>
+        <div class="about-col">
+            <img src="images/Neww.jpeg">
+        </div>
+    </div>
+
+</section>   
+
+<!----- Footer ----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Raising Young Authors is established to encourage young children and to ignite the passion for writing through cutting edge methodologies.<br> Equipping teachers with the engaging, interactive and fun strategies that makes creative writing easy.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/raisingyoungauthors/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/raising.young.authors/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Page Maintained by Lechi Tech</p>
+    <p><i class="fa fa-copyright"></i> 2022 Raising Young Authors</p>
+</section>
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  
+  function showMenu(){
+    navLinks.style.right = "-100px";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-300px";
+  }  
+</script>
+</body>
+</html>

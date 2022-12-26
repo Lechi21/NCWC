@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Design.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" type="text/css">
+    <title>Raising Young Authors</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/New Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#" >ABOUT<span class="fa fa-caret-down ca"></span></a>
+                        <div class="sub-head">
+                            <ul>
+                                <li><a href="Camp Site.html">Camp Sites</a></li>
+                                <li><a href="Our Team.html">Our Team</a></li>
+                                <li><a href="Mission & Vision.html">Mission &amp; Vision</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">COURSE</a><i class="fa fa-caret-down ca" id=""></i>
+                        <div class="sub-head">
+                            <ul>
+                                <li><a href="Trainings.html">Trainings</a></li>
+                                <li><a href="Online Courses.html">Online Courses</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">EVENTS</a><i class="fa fa-caret-down ca"></i>
+                        <div class="sub-head">
+                            <ul>
+                                <li><a href="">2021 Competitions</a></li>
+                                <li><a href="">2022 Competitions</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                <a href="" class="btn"><button>SIGN IN</button></a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Certificate</h1>
+    </section>
+
+<!-------blog page content-------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/Test 1.jpg">
+            <h2>Our Certificate & Online Programs</h2>
+            <p>A platform helping to develop the writing abilities of our young children. Maple Tammy Dappa If we do not raise young authors, what will the next generation read? I completely endorse Raising Young Authors and recommend them to schools, reading centers and individuals. Raising Young Authors is a wonderful platform that will build our future leaders (our children) holistically. 
+                Most people are not failing because of their potential. They failing because their potential is spread in too many directions.</p>
+            <br>
+            <p>Often times, we are tempted to want to attempt more than we can achieve, as we are encouraged to follow our passion.
+                Unfortunately, pulling ourselves in too many directions is the single quickest way to ensure failure. In addition, putting our all into a single direction is the quickest way to ensure success and make our dreams come true.
+                Nice dream MRS CHIBUZOR
+                LONG LIVE GREAT WRITERS!
+                LONG LIVE RAISING AUTHORS!
+                </p>
+            <br>
+            <p>Raising young authors is a beautiful platform for young aspiring authors to learn the rudiments of writing captivating stories. It is also, designed to aid Creative Writing teachers to make the subject fun as they take the children on the journey of making their imaginations come alive.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Traits For Writing</span>
+                <span>0</span>
+            </div>
+            <div>
+                <span>Writing Process</span>
+                <span>0</span>
+            </div>
+            <div>
+                <span>Descriptive Essay</span>
+                <span>0</span>
+            </div>
+            <div>
+                <span>Narrative Essay</span>
+                <span>0</span>
+            </div>
+            <div>
+                <span>Persuasive Writing</span>
+                <span>0</span>
+            </div>
+            <div>
+                <span>Story Writing</span>
+                <span>0</span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+   
+
+<!----- Footer ----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Raising Young Authors is established to encourage young children and to ignite the passion for writing through cutting edge methodologies.<br> Equipping teachers with the engaging, interactive and fun strategies that makes creative writing easy.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/raisingyoungauthors/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/raising.young.authors/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Page Maintained by Lechi Tech</p>
+    <p><i class="fa fa-copyright"></i> 2022 Raising Young Authors</p>
+</section>
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  
+  function showMenu(){
+    navLinks.style.right = "-100px";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-300px";
+  }  
+</script>
+</body>
+</html>

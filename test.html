@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    <div class="owl-carousel testimonial-carousel">
+      <!--   Start Testimonials -->
+    
+      <!--   Testimonial 1 -->
+      <div class="single-testimonial">
+        <div class="testimonials-wrapper">
+          <h4>Habitasse lobortis cum malesuada nullam cras odio venenatis nisl at turpis sem in porta consequat massa a mus massa nascetur elit vestibulum a.</h4>
+          <div class="testimonials-blob"></div>
+          <div class="testimonials-img"><img src="https://randomuser.me/api/portraits/women/21.jpg"></div>
+          <div class="testimonials-person-info">
+            <p><b>Jane Doe</b><br />Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <!--   Testimonial 2 -->
+      <div class="single-testimonial">
+        <div class="testimonials-wrapper">
+          <h4>Aenean a neque ipsum. In viverra mauris nibh, nec dapibus nibh imperdiet at. Nulla urna odio, aliquam tincidunt posuere quis, placerat nec sem.</h4>
+          <div class="testimonials-blob"></div>
+          <div class="testimonials-img"><img src="https://randomuser.me/api/portraits/women/65.jpg"></div>
+          <div class="testimonials-person-info">
+            <p><b>Jane Doe</b><br />Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <!--   Testimonial 3 -->
+      <div class="single-testimonial">
+        <div class="testimonials-wrapper">
+          <h4>Donec in quam eget arcu convallis maximus. In hac habitasse platea dictumst. Etiam commodo faucibus vestibulum. Aliquam vitae consectetur velit.</h4>
+          <div class="testimonials-blob"></div>
+          <div class="testimonials-img"><img src="https://randomuser.me/api/portraits/women/96.jpg"></div>
+          <div class="testimonials-person-info">
+            <p><b>Jane Doe</b><br />Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <!--   Testimonial 4 -->
+      <div class="single-testimonial">
+        <div class="testimonials-wrapper">
+          <h4>Phasellus malesuada arcu sed justo dapibus bibendum. Mauris cursus, dui sit amet vehicula fermentum, mauris ante lobortis mi, eget accumsan nibh est ut lorem.</h4>
+          <div class="testimonials-blob"></div>
+          <div class="testimonials-img"><img src="https://randomuser.me/api/portraits/women/72.jpg"></div>
+          <div class="testimonials-person-info">
+            <p><b>Jane Doe</b><br />Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <!--   Testimonial 5 -->
+      <div class="single-testimonial">
+        <div class="testimonials-wrapper">
+          <h4>Phasellus vestibulum felis sed malesuada consequat. Integer sed mollis nunc. Vivamus mauris ligula, iaculis vel sem sit amet, vehicula elementum nulla.</h4>
+          <div class="testimonials-blob"></div>
+          <div class="testimonials-img"><img src="https://randomuser.me/api/portraits/women/85.jpg"></div>
+          <div class="testimonials-person-info">
+            <p><b>Jane Doe</b><br />Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <!--   End Testimonials -->
+    </div>
+</body>
+
+
+<script>
+
+    // A Testimonials slider for a 
+// friend's (fb.com/computer.doctor.xanthi/) 
+// website i am developing
+
+// Made with awesome -> Owl Carousel 2:
+// https://github.com/OwlCarousel2/OwlCarousel2
+
+$(function() {
+  $('.owl-carousel.testimonial-carousel').owlCarousel({
+    nav: true,
+    navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+    dots: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      750: {
+        items: 2,
+      }
+    }
+  });
+});
+
+</script>
+</html>

@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body img {
+  width: 5%;
+}
 body,
 input {
   font-family: "Poppins", sans-serif;
@@ -255,6 +257,9 @@ form.sign-in-form {
     min-height: 100px;
     height: 100vh;
   }
+  body img {
+    width: 9%;
+  }
   img{
     width: 15%;
   }
@@ -360,7 +365,9 @@ form.sign-in-form {
   form {
     padding: 0 1.5rem;
   }
-
+  body img {
+    width: 9%;
+  }
   .image {
     display: none;
   }

@@ -701,11 +701,31 @@ p{
 .comment-form button{
     margin: 10px 0;
 }
+.send-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(248, 160, 144);
+    border: 1px solid rgb(248, 160, 144);
+    padding: 12px 34px;
+    background: none;
+    position: relative;
+    cursor: pointer; 
+    border-radius: 30px;
+}
+.send-btn:hover{
+      border: 1px solid #f44336;
+      background: #f44336;
+      transition: 1s;
+      color: #fff;
+}
 
 
 @media(max-width: 700px){
     .sub-header h1{
         font-size: 24px;
+    }
+    .send-btn{
+        width: 70%;
     }
 }
 

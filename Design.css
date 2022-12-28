@@ -249,7 +249,7 @@ button:hover {
         display: none;
     }
     .nav-links ul li:hover .sub-head ul{
-        display: inline-block;
+        display: none;
     }
 }
 

@@ -510,7 +510,7 @@ p{
 }
 
 .container {
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   padding: 40px 0;
@@ -760,6 +760,7 @@ p{
     }
     .send-btn{
     width: 70%;
+    padding: 12px 1px;
     }
 }
 

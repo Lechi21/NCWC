@@ -13,50 +13,57 @@
 <body>
     <section class="sub-header">
         <nav>
-            <a href="./index"><img src="images/New Logo.png"></a>
+            <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
-             <i class="fa fa-times" onclick="hideMenu()"></i>
+                <i class="fa fa-times hamburger" onclick="hideMenu()"></i>
                 <ul class="menu">
-                    <li><a href="./index">HOME</a></li>
-                    <li><a href="#" >ABOUT<span class="fa fa-caret-down ca"></span></a>
-                        <div class="sub-head">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
                             <ul>
-                                <li><a href="./Our Team">Our Team</a></li>
-                                <li><a href="./Mission & Vision">Mission &amp; Vision</a></li>
+                                <li><a href="Our Team.html">Our Team</a></li>
+                                <li><a href="Mission & Vision.html">Mission &amp; Vision</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">COURSE</a><i class="fa fa-caret-down ca" id=""></i>
-                        <div class="sub-head">
+                    <li><a href="#" class="drop">COURSE<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
                             <ul>
-                                <li><a href="./Trainings">Trainings</a></li>
-                                <li><a href="./Online Courses">Online Courses</a></li>
+                                <li><a href="Trainings.html">Trainings</a></li>
+                                <li><a href="Online Courses.html">Online Courses</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">EVENTS</a><i class="fa fa-caret-down ca"></i>
-                        <div class="sub-head">
+                    <li><a href="#" class="drop">EVENTS<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
                             <ul>
-                                <li><a href="">2021 Competitions</a></li>
-                                <li><a href="">2022 Competitions</a></li>
+                                <li><a href="#">2020 Competitions</a></li>
+                                <li><a href="#">2021 Competitions</a></li>
+                                <li><a href="#">2022 Competitions</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="./Blog">BLOG</a></li>
-                    <li><a href="./Contact">CONTACT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
                 </ul>
-                <a href="./Signin & Signup" class="btn"><button>SIGN IN</button></a>
+                <a href="Signin & Signup.html" class="btn"><button>SIGN IN</button></a>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <i class="fa fa-bars hamburger" onclick="showMenu()"></i>
         </nav>
             <h1>Our Team</h1>
     </section>
+
+
+    <!--=============== HEADING ==================-->
+    <div class="section-heading">
+        <h2><a href="#" class="flex-btn extra inactive">Team National</a></h2>
+    </div>
 
   <!-------Our Team -------->
   <section class="about-us">
     <div class="row">
         <div class="about-col">
-            <h1>Lead National Coordinator</h1>
+            <h1>Your Instructors</h1>
             <p><blockquote class="block">At Raising Young Authors, we believe that qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience.<br> Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.
                 A good teacher can make a world of difference in a student's life, impacting everything from their classroom learning to their long-term success.<br>
                 Great communication doesn't stop when the teacher is done talking. Listening well is one of the most important skills needed to be a teacher. 
@@ -75,7 +82,10 @@
 <!----- Footer ----->
 <section class="footer">
     <h4>About Us</h4>
-    <p>The National Creative Writer's Organization is co-founded by Rasing Young Authors and the National Planning Partner (BirchHill  Consulting). <br> It is established to encourage young children and to ignite the passion for writing through cutting edge methodologies.<br> Equipping teachers with the engaging, interactive and fun strategies that makes creative writing easy.</p>
+    <p>The National Creative Writer's Organization is co-founded by Rasing Young Authors and the National Planning
+        Partner (BirchHill Consulting). <br> It is established to encourage young children and to ignite the passion for
+        writing through cutting edge methodologies.<br> Equipping teachers with the engaging, interactive and fun
+        strategies that makes creative writing easy.</p>
     <div class="icons">
         <a href="https://www.facebook.com/raisingyoungauthors/" target="_blank"><i class="fa fa-facebook"></i></a>
         <a href="https://www.instagram.com/raising.young.authors/" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -93,14 +103,14 @@
 
 <!--------JavaScript for Toggle Menu--------->
 <script>
-  var navLinks = document.getElementById("navLinks");
-  
-  function showMenu(){
-    navLinks.style.right = "-100px";
-  }
-  function hideMenu(){
-    navLinks.style.right = "-300px";
-  }  
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0px";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-700px";
+    }
 </script>
 </body>
 </html>

@@ -5,8 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body img {
-  width: 5%;
+    width: 5%;
 }
 body,
 input {

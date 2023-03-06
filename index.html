@@ -9,51 +9,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="nat-btn.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="shortcut icon" href="images/Icon.jpeg" type="image/jpg">
     <title>Raising Young Authors</title>
 </head>
 <body>
     <section class="header">
         <nav>
-            <a href="./"><img src="images/New Logo.png"></a>
+            <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
-             <i class="fa fa-times" onclick="hideMenu()"></i>
+             <i class="fa fa-times hamburger" onclick="hideMenu()"></i>
                 <ul class="menu">
-                    <li><a href="./">HOME</a></li>
-                    <li><a href="#" >ABOUT<span class="fa fa-caret-down ca"></span></a>
-                        <div class="sub-head">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
                             <ul>
-                                <li><a href="./Our Team">Our Team</a></li>
-                                <li><a href="./Mission & Vision">Mission &amp; Vision</a></li>
+                                <li><a href="Our Team.html">Our Team</a></li>
+                                <li><a href="Mission & Vision.html">Mission &amp; Vision</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">COURSE</a><i class="fa fa-caret-down ca" id=""></i>
-                        <div class="sub-head">
+                    <li><a href="#" class="drop">COURSE<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
                             <ul>
-                                <li><a href="./Trainings">Trainings</a></li>
-                                <li><a href="./Online Courses">Online Courses</a></li>
+                                <li><a href="Trainings.html">Trainings</a></li>
+                                <li><a href="Online Courses.html">Online Courses</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">EVENTS</a><i class="fa fa-caret-down ca"></i>
-                        <div class="sub-head">
+                    <li><a href="#" class="drop">EVENTS<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
                             <ul>
-                                <li><a href="">2021 Competitions</a></li>
-                                <li><a href="">2022 Competitions</a></li>
+                                <li><a href="#">2020 Competitions</a></li>
+                                <li><a href="#">2021 Competitions</a></li>
+                                <li><a href="#">2022 Competitions</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="./Blog">BLOG</a></li>
-                    <li><a href="./Contact">CONTACT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
                 </ul>
-                <a href="./Signin & Signup" class="btn"><button>SIGN IN</button></a>
+                <a href="Signin & Signup.html" class="btn"><button class="sign-btn">SIGN IN</button></a>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <i class="fa fa-bars hamburger" onclick="showMenu()"></i>
         </nav>
             <div class="text-box">
-                <h1>National Creative Writer's</h1>
+                <h1>National <br> Creative Writers</h1>
                 <p>Igniting The Passion For Writing In African Children</p>
-                <a href="./Mission & Vision" class="hero-btn">Discover More &#8594</a>
+                <a href="Mission & Vision.html" class="hero-btn">Discover More &#8594</a>
             </div>
     </section>
 
@@ -62,14 +67,13 @@
     <h1 class="n-com">National Creative Writing Competition</h1>
 
     <div class="national-btn">
-        <a href="./Registration" class="nat-btn" target="_blank">
+        <a href="Registration.html" class="nat-btn" target="_blank">
             <span></span>
             <span></span>
             <span></span>
             <span></span>Register Now</a>
     </div>
 </section>
-
 
 <!===================== Course =========================>
 <section class="course">
@@ -84,7 +88,6 @@
     </div>
 
 </section>
-
 
 <!==================campus============================>
 <section class="campus">
@@ -114,70 +117,192 @@
 </section>
 
 <!======================= Record Holders============================>
-<section class="record-hol">
+<section class="hold">
     <h1>Our Record Holders</h1>
     <p>We affiliates with schools around the Nations for effect writings</p>
+    <div class="slide-container swipe">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
 
-    <div class="row">
-        <div class="record-hold">
-            <img src="images/Senior 1.jpg">
-            <h3>Senior Category</h3>
-            <p>First (1st) Position Winner in the Senior <br>Category</p>
-        </div>
-        <div class="record-hold">
-            <img src="images/Senior 2.jpg">
-            <h3>Senior Category</h3>
-            <p>Second (2nd) Position Winner in the Senior <br>Category</p>
-        </div>
-        <div class="record-hold">
-            <img src="images/Senior 3.jpg">
-            <h3>Senior Category</h3>
-            <p>Third (3rd) Position Winner in the Senior <br>Category</p>
+                        <div class="card-image">
+                            <img src="images/Image 1.jpg" alt="" class="card-img">
+                        </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name"><strong>Azeezah Adesanya</strong> <br>(Senior Category)</h2>
+                    <p class="description"><strong>First Position</strong> Winner in the Senior Category of <strong>2022</strong> National Creative Writing Competition</p>
+
+                    <button class="sch-btn">Corona School</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/Image 2.jpg" alt="" class="card-img">
+                        </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name"><strong>Eliora Jaja</strong><br>(Senior Category)</h2>
+                    <p class="description"><strong>Second Position</strong> Winner in the Senior Category of <strong>2022</strong> National Creative Writing Competition</p>
+
+                    <button class="sch-btn">Montessori Int'l School</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/Image 3.jpg" alt="" class="card-img">
+                        </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name"><strong>Sonia Paul-Kua</strong><br>(Senior Category)</h2>
+                    <p class="description"><strong>Third Position</strong> Winner in the Senior Category of <strong>2022</strong> National Creative Writing Competition</p>
+
+                    <button class="sch-btn">Sailor's Pride School</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/Image 4.jpg" alt="" class="card-img">
+                        </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name"><strong>Esther Ombu</strong><br>(Junior Category)</h2>
+                    <p class="description"><strong>First Position</strong> Winner in the Junior Category of <strong>2022</strong> National Creative Writing Competition</p>
+
+                    <button class="sch-btn">Sailor's Pride School</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/Image 5.jpg" alt="" class="card-img">
+                        </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name"><strong>Naysah Ajah</strong><br>(Senior Category)</h2>
+                    <p class="description"><strong>Second Position</strong> Winner in the Junior Category of <strong>2022</strong> National Creative Writing Competition</p>
+
+                    <button class="sch-btn">Crown Height's Academy</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/Image 6.jpg" alt="" class="card-img">
+                        </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name"><strong>Nsikanabasi Akaniyene</strong><br>(Junior Category)</h2>
+                    <p class="description"><strong>Third Position Winner</strong> in the Junior Category of <strong>2022</strong> National Creative Writing Competition</p>
+
+                    <button class="sch-btn">Monef Kiddies School</button>
+                </div>
+            </div>
         </div>
     </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
 </section>
+
+<!-- Swiper-js -->
+
+<script src="swiper-bundle.min.js"></script>
+
+<script src="card.js"></script>
 
 <!==================== testimonials ===========================>
 
-<section class="testimonials">
+ <section class="container">
     <h1>What Our Student Says</h1>
-    <p>Creative Writing, Making Students Creative</p>
-
-    <div class="row">
-        <div class="testimonial-col">
-            <img src="images/Test 1.jpg" alt="Test 1">
-            <div>
-                <p class="block">If we don't raise young authors, what will the next generation read?<br>I completely endorse Raising Young Authors and recommend them to schools, reading centers and individuals.
-                    </p>
-                <h3>Ini Ajah</h3>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
+      <div class="testimo mySwiper">
+        <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="images/Image 1.jpg" class="image" />
+                <p>If we don't raise young authors, what will the next generation read?<br>I completely endorse Raising Young Authors and recommend them to schools, reading centers and individuals.</p>
+                <div class="details">
+                  <span class="name">Ini Ajah</span>
+                  <div class="iconic">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="slide swiper-slide">
+                <img src="images/Image 2.jpg" class="image" />
+                <p>Raising young authors is a beautiful platform for young aspiring authors to learn the rudiments of writing captivating stories. It is also designed to aid Creative Writing teachers to make the subject fun as they take the children on the journey of making their imaginations come alive.</p>
+                <div class="details">
+                  <span class="name">Hope Okata</span>
+                  <div class="iconic">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                  </div>
+                </div>
+              </div><div class="slide swiper-slide">
+                <img src="images/Image 1.jpg" class="image" />
+                <p>If we don't raise young authors, what will the next generation read?<br>I completely endorse Raising Young Authors and recommend them to schools, reading centers and individuals.</p>
+                <div class="details">
+                  <span class="name">Ini Ajah</span>
+                  <div class="iconic">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="slide swiper-slide">
+                <img src="images/Image 2.jpg" class="image" />
+                <p>Raising young authors is a beautiful platform for young aspiring authors to learn the rudiments of writing captivating stories. It is also designed to aid Creative Writing teachers to make the subject fun as they take the children on the journey of making their imaginations come alive.</p>
+                <div class="details">
+                  <span class="name">Hope Okata</span>
+                  <div class="iconic">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                  </div>
+                </div>
+              </div>
         </div>
-        <div class="testimonial-col">
-            <img src="images/Test 2.jpg">
-            <div>
-                <p class="block">Raising young authors is a beautiful platform for young aspiring authors to learn the rudiments of writing captivating stories. It is also designed to aid Creative Writing teachers to make the subject fun as they take the children on the journey of making their imaginations come alive.</p>
-                <h3>Hope Okata</h3>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-            </div>
-        </div>
-    </div>
-    <a href="" class="hero-btnn">SEE MORE</a>
-</section>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="Testimonial slide.js"></script>
 
 <!-========================= Call To Action============================->
 <section class="cta">
     <h1>Enroll For Our Various Online Courses <br>Anywhere From The World</h1>
-    <a href="./Contact" class="Con-btn">CONTACT US</a>
+    <a href="Contact.html" class="Con-btn">CONTACT US</a>
 
 </section>
 
@@ -195,20 +320,15 @@
     <p><i class="fa fa-copyright"></i> 2022 Raising Young Authors</p>
 </section>
 
-
-
-
-
-
 <!-===============-JavaScript for Toggle Menu--==================->
 <script>
   var navLinks = document.getElementById("navLinks");
   
   function showMenu(){
-    navLinks.style.right = "-100px";
+    navLinks.style.right = "0px";
   }
   function hideMenu(){
-    navLinks.style.right = "-300px";
+    navLinks.style.right = "-700px";
   }
 </script>
 

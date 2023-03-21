@@ -609,6 +609,49 @@ p{
     }
   }
 
+/*-====================-sponsors-===================--*/
+.sponsors{
+    height: 50vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+h1{
+    font-size: 33px;
+    font-weight: 600;
+}
+p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+  @keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 4));
+    }
+}
+.sponsor-slider{
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.sponsor-slider .slider-track{
+    animation: scroll 15s linear infinite;
+    display: flex;
+    width: calc(250px * 4);
+}
+.sponsor-slider .sponsor{
+    height: 100px;
+    width: 250px;
+}
 /*-====================-footer-===================--*/
 .footer{
     width: 100%;

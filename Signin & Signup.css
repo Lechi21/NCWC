@@ -256,7 +256,7 @@ form.sign-in-form {
 @media (max-width: 870px) {
   .container {
     min-height: 100px;
-    height: 100vh;
+    height: 95vh;
   }
   body img {
     width: 9%;
@@ -367,7 +367,7 @@ form.sign-in-form {
     padding: 0 1.5rem;
   }
   body img {
-    width: 9%;
+    width: 15%;
   }
   .image {
     display: none;

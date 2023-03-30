@@ -4,7 +4,7 @@
     display: inline-block;
     border-radius: 15px;
     padding: 10px 10px;
-    color: #ffffff;
+    color: rgb(22, 56, 33);
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -15,13 +15,13 @@
 }
   
 .nat-btn:hover {
-    background: #aa5237;
+    background: #5d9d5f;
     color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #aa5237,
-                0 0 25px#aa5237,
-                0 0 50px#aa5237,
-                0 0 75px#aa5237;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #5d9d5f,
+                0 0 15px#5d9d5f,
+                0 0 40px#5d9d5f,
+                0 0 65px#5d9d5f;
 }
   
 .nat-btn span {
@@ -33,7 +33,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #aa5237);
+    background: linear-gradient(90deg, transparent, #5d9d5f);
     animation: btn-anim1 1s linear infinite;
 }
   
@@ -51,7 +51,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #aa5237);
+    background: linear-gradient(180deg, transparent, #5d9d5f);
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
 }
@@ -69,7 +69,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #aa5237);
+    background: linear-gradient(270deg, transparent, #5d9d5f);
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s
 }
@@ -88,7 +88,7 @@
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #aa5237);
+    background: linear-gradient(360deg, transparent, #5d9d5f);
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s
 }

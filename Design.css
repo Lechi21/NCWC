@@ -8,7 +8,7 @@
 }
 /*-===============Header===================-*/
 .header{
- min-height: 85vh;
+ min-height: 90vh;
  width: 100%;   
  background-position: centre;
  background-size: cover;
@@ -17,21 +17,21 @@
  z-index: 1000;
 }
 .header-slide{
-    min-height: 85vh;
+    min-height: 90vh;
     width: 100%;
-    height: 85vh;
+    height: 90vh;
 }
 
 #Headslide{
-    min-height: 85vh;
+    min-height: 90vh;
     width: 100%;
-    height: 85vh;
+    height: 90vh;
 }
 .head-overlay{
-    min-height: 85vh;
+    min-height: 90vh;
     width: 100%;
-    height: 85vh;
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    height: 90vh;
+    background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5));
     position: absolute;
     top: 0;
 }
@@ -43,7 +43,7 @@ nav {
     background-color: #ffffffef;
 }
 nav img{
-    width: 90px;
+    width: 120px;
     height: 50%;
     padding: 2px 0px;
     margin-left: 5px;
@@ -54,9 +54,10 @@ nav img{
 }
 .nav-links .menu{
     list-style-type: none;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     display: flex;
+    margin-right: 90px;
 }
 .nav-links ul li{
     position: relative;
@@ -172,13 +173,14 @@ nav .btn{
 }
 button{
     display: inline-block;
-    padding: 6px 9px;
+    padding: 6px 15px;
     background-color: #aa5237;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: 0.5s;
     color: #fff;
+    font-size: 14px;
 }
 button:hover {
     background-color: rgba(144, 144, 156, 0.8);
@@ -240,7 +242,7 @@ button:hover {
         width: 100%;
         height: 80vh;
         min-height: 80vh;
-        background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+        background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5));
         position: absolute;
         top: 0;
     }
@@ -365,8 +367,8 @@ button:hover {
 
 /*-================== National =====================--*/
 :root{
-    --Nprimary: #466936;
-    --Nsecondary: #421312;
+    --Nprimary: #ffffff00;
+    --Nsecondary: #e5e5e5;
 }
 .national{
     width: 100%;
@@ -381,7 +383,7 @@ button:hover {
     font-size: 36px;
     font-weight: 600;
     font-family: 'Times New Roman';
-    color: #fff;
+    color: #5d9d5f;
 }
 
 /*-================== National Button=====================--*/
@@ -413,17 +415,17 @@ button:hover {
         font-size: 30px;
         font-weight: 600;
         font-family: 'Times New Roman';
-        color: #fff;
+        color: #5d9d5f;
     }
     
 }
 
 /*-==================-course--=====================--*/
 :root{
-    --primary: #466936;
-    --secondary: #421312;
+    --primary: #afe398;
+    --secondary: #557c45;
    /* --primary: #114357;
-    --secondary: #f29492;*/
+    --secondary: #f29492; */
 
 }
 .course{
@@ -431,7 +433,13 @@ button:hover {
     margin-top: 30px;
     text-align: center;
     padding-top: 90px;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background: linear-gradient(335deg, var(--primary), var(--secondary));
+}
+.course-n{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Times New Roman';
+    color: #ffffff;
 }
 .course-P{
     color: #fff;
